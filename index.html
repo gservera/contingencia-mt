@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[WEB DE CONTINGENCIA] Analíticas · Guille Servera</title>
+    <meta name="description" content="MedTools Lab es una pequeña utilidad que facilita y automatiza el procesamiento de pruebas para su uso en informes y evolutivos. Pega una analítica, gasometría o tira de orina y el formato se aplicará de forma automática."/>
+    <meta name="keywords" content="analítica,gasometría,sistemático de orina"/>
+    <meta name="robots" content= "index, follow">
+    <meta name="author" content="Guille Servera Negre"/>
+    <meta name="generator" content="Microsoft Visual Studio Code"/>
+    <meta name="copyright" content="2019-2020 Guille Servera Negre. Todos los derechos reservados."/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@guiverane">
+    <meta name="twitter:title" content="MedTools Lab">
+    <meta name="twitter:description" content="Automatiza el procesamiento de pruebas para su uso en informes y evolutivos. Pega una analítica, gasometría o tira de orina y el formato se aplicará de forma instantánea.">
+    <meta name="twitter:image" content="https//mt.gservera.com/banner_square.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3273dc">
+    <meta name="msapplication-TileColor" content="#3273dc">
+    <meta name="theme-color" content="#3273dc">
+</head>
+<body>
+    <nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <div class="navbar-item">
+                Web de contingencia, por favor, utilice&nbsp;<a style="color: #ddd;" href="https://mt.gservera.com" class="href">mt.gservera.com</a>&nbsp;si está disponible
+            </div>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="menu">
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        <svg style="margin-top: 0;" fill="#FFFFFF" width="16" height="16" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m0.22656 33.977h20.84v66.023h-20.84zm85.648 13.895h6.9453v-6.9453h-6.9453zm-78.703 0h6.9453v-6.9453h-6.9453zm41.379-37.477v-3.7539h2.8906v3.7539h3.7539v2.9414h-3.7539v3.7539h-2.8906v-3.7539h-3.7539v-2.9414zm9.8359 9.8359c2.1289-2.1289 3.4492-5.0703 3.4492-8.3672 0-6.543-5.2734-11.867-11.867-11.867-3.2461 0-6.2383 1.3203-8.3672 3.5-2.1289 2.1289-3.4492 5.0703-3.4492 8.3672 0 6.543 5.2734 11.867 11.816 11.867 3.2969 0 6.2891-1.3203 8.418-3.5zm-15.312 79.766h13.844v-17.395h-13.844zm32.961-88.133v88.133h-16.227v-20.285h-19.676v20.285h-16.176v-88.133h11.258c0 8.1133 6.6445 14.758 14.758 14.758 3.957 0 7.707-1.5703 10.445-4.3086 2.7891-2.7891 4.3594-6.543 4.3594-10.445h11.258zm-15.617 50.254h6.9453v6.9453h-6.9453zm-13.895 0h6.9453v6.9453h-6.9453zm-13.895 0h6.9453v6.9453h-6.9453zm27.789-13.844h6.9453v6.9453h-6.9453zm-13.895 0h6.9453v6.9453h-6.9453zm-13.895 0h6.9453v6.9453h-6.9453zm27.789-13.895h6.9453v6.9453h-6.9453zm-13.895 0h6.9453v6.9453h-6.9453zm-13.895 0h6.9453v6.9453h-6.9453zm46.297-0.40625h20.84v66.023h-20.84zm6.9453 20.84h6.9453v6.9453h-6.9453zm0 13.895h6.9453v6.9453h-6.9453zm-78.703 0h6.9453v6.9453h-6.9453zm0-13.895h6.9453v6.9453h-6.9453z" fill-rule="evenodd"/>
+                        </svg>&nbsp;&nbsp;<strong>HULP/HCIS</strong>
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">HULP/HCIS</a>
+                    </div>
+                </div>
+                <div class="navbar-item is-hoverable">
+                    <a id="show-settings-button" href="#">
+                        <svg style="margin-top: 6px;" width="20" height="20" class="octicon octicon-gear" viewBox="0 0 14 16" version="1.1" aria-hidden="true"><path fill="white" fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>
+                    </a>
+                </div>
+                <div class="navbar-item is-hoverable">
+                    <a href="changelog.html">
+                        <svg style="margin-top: 6px;" fill="#FFFFFF" width="20" height="20" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m50 0c-13.262 0-25.98 5.2695-35.355 14.645s-14.645 22.094-14.645 35.355 5.2695 25.98 14.645 35.355 22.094 14.645 35.355 14.645 25.98-5.2695 35.355-14.645 14.645-22.094 14.645-35.355-5.2695-25.98-14.645-35.355-22.094-14.645-35.355-14.645zm0.62109 75.531c0.4375 0.23438 0.96094 0.23438 1.3984 0 0.86328-0.62891 1.6484-1.3555 2.3398-2.1719 1-1.1914 1.8789-2.4805 2.8711-3.8203l1.3906 0.83984c-2 3.3398-4.0586 6.4414-7.1211 8.7617-1.6094 1.2812-3.5391 2.0859-5.5781 2.3281-4.7695 0.53906-7.8203-2.7109-6.6797-7.3906 1-4.1094 2.2695-8.1602 3.4297-12.238 1.1562-4.0781 2.3281-8.3203 3.5078-12.461 0.09375-0.40625 0.16406-0.82031 0.21094-1.2383 0.18359-0.70703 0.042969-1.457-0.38672-2.0508-0.42578-0.58984-1.0938-0.96094-1.8242-1.0117-0.72266-0.0625-1.4531-0.089844-2.1797-0.078125 0.011719-0.23828 0.050781-0.47656 0.10938-0.71094l0.14062-1 17.238-2.7617-1.1992 4.1797-0.26953 1c-2.5 8.7344-5.0078 17.5-7.5312 26.293-0.25391 0.6875-0.42188 1.4062-0.48828 2.1406 0 0.53125 0.22266 1.0352 0.62109 1.3906zm4.1406-44.531c-1.6562-0.011719-3.2344-0.67969-4.3945-1.8555-1.1602-1.1797-1.8047-2.7695-1.7891-4.4258 0-3.4297 2.7812-6.207 6.2109-6.207 3.4297 0 6.2109 2.7773 6.2109 6.207-0.003906 3.4531-2.7891 6.2539-6.2383 6.2812z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <div class="resizable ui-resizable resizable1">
+            <textarea placeholder="Pega aquí una analítica en formato texto, una gasometría, un sistemático de orina o un informe de radiología para darle formato. Para más información y novedades haz clic en el botón (i) en la esquina superior derecha." name="input" id="input" cols="30" rows="10" autocomplete="off"></textarea>
+        </div>
+        <div class="resizable resizable2">
+            <div class="tabs is-centered">
+                <ul>
+                    <li id="summary-tab-button" class="tab is-active">
+                        <a><span>Resumen</span></a>
+                    </li>
+                    <li id="structured-tab-button" class="tab">
+                        <a><span>Estructura</span></a>
+                    </li>
+                    <li id="table-tab-button" class="tab has-badge-inline has-badge-rounded has-badge-link">
+                        <a><span>Elementos</span></a>
+                    </li>
+                    <li id="findings-tab-button" class="tab has-badge-inline has-badge-rounded">
+                        <a><span>Hallazgos</span></a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="content-tabs">
+                <div class="content-tab" id="summary-tab-contents">
+                    <div id="output"></div>
+                </div>
+                <div class="content-tab" id="structured-tab-contents" style="display: none;">
+                    <div id="output-structured"></div>
+                </div>
+                <div class="content-tab" id="table-tab-contents" style="display: none;">
+                    <table id="parsed-data" class="table is-narrow is-hoverable is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>Parámetro</th>
+                                <th>Valor</th>
+                                <th>Unidades</th>
+                                <th>Valores normales</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-contents">
+    
+                        </tbody>
+                    </table>
+                </div>
+                <div class="content-tab" id="findings-tab-contents" style="display: none;"></div>
+                <div class="content-tab" id="gasometry-tab-contents" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2019-2020 <a href="https://www.gservera.com" target="_blank">Guille Servera Negre</a>. Todos los derechos reservados. <a id="version-link" href="changelog.html">Versión …</a><br>
+        Todas las transformaciones de texto se realizan de forma local. Los datos introducidos no se envían a ningún servidor. Esta web NO utiliza cookies de terceros.
+    </footer>
+
+    <div id="eula-notification" class="notification bubble-notification is-warning" hidden>
+        <button class="delete"></button>
+        <strong>Términos y condiciones de uso</strong><br>
+        Por favor, comprueba que has leído los <a href="eula.html">términos y condiciones</a>. Al usar la aplicación se entiende que aceptas dichos términos.
+    </div>
+    <div id="done-notification" class="notification bubble-notification is-dark" hidden>
+        <button class="delete"></button>
+        <!--<strong>¡Hecho! 🤓</strong><br>-->
+        <span id="done-title"><strong>¡Hecho! 🤓</strong></span><br><br>
+        <ul id="covid-ul"></ul>
+        Si te ha sido útil la app, mejorarías algo o tienes alguna idea, me encantaría saber de ti. Escríbeme a 
+        <script type="text/javascript" language="javascript">
+            ML=">ia/fehro:t g<=@vcls.mu\""; MI="=2;6754>GE21B:89<F1BB5E?<C57@572DA8EG0<F1BB5E?<C57@572DA8E=320"; OT="";
+            for(j=0;j<MI.length;j++){ OT+=ML.charAt(MI.charCodeAt(j)-48); }
+            document.write(OT);
+        </script>
+    </div>
+
+    <div id="settings-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+            <p class="modal-card-title">Preferencias</p>
+            <button class="delete cancel-settings-button" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <p class="has-text-center">En desarrollo</p>
+            </section>
+            <footer class="modal-card-foot">
+            <button id="save-settings-button" class="button is-success">Guardar cambios</button>
+            <button class="button cancel-settings-button">Cancelar</button>
+            </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//stats.gservera.com/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+</body>
+</html>
+
