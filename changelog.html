@@ -47,6 +47,64 @@
         <br>
         <p class="small is-size-7" style="text-align: center;"><b>Nota sobre privacidad</b><br>El motor y la interfaz de la presente aplicación web se entregan de forma cifrada desde un servidor situado en Sóller, Illes Balears.<br>No obstante, todas las transformaciones de texto se realizan de forma local en el ordenador que estás utilizando, por lo que los datos analíticos introducidos no se envían a ningún servidor. Esta web NO utiliza cookies de terceros.</p>
         <h1 class="is-size-2">Historial de cambios</h1>
+        <h2 class="is-size-4">Versión 1.8.0</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-warning">Mejora</span> Las analíticas de orina se muestran ahora de forma separada a las de sangre incluso cuando se incluyen en un mismo volante.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para anticuerpos anti-péptidos citrulinados. <em>[Agradecimiento Dra. Soto Abánades]</em></li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para anticuerpos anti-membrana basal glomerular.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para creatinina en orina, albúmina, alfa1-microglobulina, osmolalidad y los cocientes proteína/creatinina y albúmina/creatinina. Soporte inicial para leucocitos/campo, hematies/campo, hematíes dismórficos, cilindros hialinos, cilindros granulosos y bacteriuria.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Mejor identificación gasometría arterial vs. venosa. <em>[Agradecimiento Dra. Soto Abánades]</em></li>
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que los valores normales mínimos o máximos iguales a 0 no se mostraran correctamente.</em></li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.7.1</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que la ferritina no se procesara cuando su valor era &lt;5. <em>[Agradecimiento Dra. Soto Abánades]</em></li>
+            <li><span class="tag is-warning">Mejora</span> Por defecto ahora se utiliza el calcio en lugar de sus derivado estandarizado en las gasometrías. <em>[Agradecimiento Dr. Diego J. Bou]</em></li>
+            <li><span class="tag is-warning">Mejora</span> El calcio de las gasometrías se muestra ahora con dos decimales.</li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.7.0</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-warning">Mejora</span> Por defecto ahora se utilizan el bicarbonato y el exceso de bases en lugar de sus derivados estandarizados en las gasometrías. <em>[Agradecimiento Dres. Diego J. Bou, Jesús Peña]</em></li>
+            <li><span class="tag is-warning">Mejora</span> Mejora en la detección de ANA, ahora con soporte para título y patrón de distribución.</li>
+            <li><span class="tag is-primary">Nuevo</span> Soporte inicial para IGRA (QuantiFERON®). <em>[Agradecimiento Dra. Soto Abánades]</em></li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte inicial para screening de anticoagulante lúpico.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para anticuerpos anti-centrómero.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Eliminado el comentario "Hierro no procesado, No se confirma la presencia de anemia, microcitosis, hipocromía, anisocitosis o hiposideremia…"</li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.6.9</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-primary">Nuevo</span> Deshabilitada la predicción de COVID-19 considerando el estado actual de la pandemia.</li>
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que la PCR no se procesara con resultado &lt;.5.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para cANCA, pANCA y crioglobulinas. <em>[Agradecimiento Dra. Soto Abánades]</em></li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para iones en orina de micción.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para cobre y zinc en sangre.</li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.6.8</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que C3 y C4 no se procesaran en ausencia de valores de referencia.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para anticuerpos anti-ß2GPI y anticuerpos anticardiolipina dependientes de ß2GPI.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para inmunocomplejos.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para actividad ADAMTS-13.</li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.6.7</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que el magnesio no se procesara con números enteros.</li>
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que la TSH no se procesara cuando su valor era &lt;0.01.</li>
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que la IgA no se procesara cuando su valor era &lt;8.</li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para el marcador tumoral HE-4.</li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.6.6</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que el magnesio no se procesara cuando su valor era &lt;0.7. <em>[Agradecimiento Dr. Diego J. Bou]</em></li>
+            <li><span class="tag is-info">HULP/HCIS</span> Soporte para T3 libre, calcitriol e IgG4.</li>
+        </ul>
+        <h2 class="is-size-4">Versión 1.6.5</h2>
+        <ul style="margin-bottom: 2rem;">
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que el Nt-proBNP no se procesara cuando su valor era &lt;35.</li>
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que la ASAT no se procesara cuando su valor era &lt;8.</li>
+            <li><span class="tag is-danger">Bug</span> Corregido un error que hacía que la CPK no se procesara cuando su valor era &lt;15.</li>
+            <li><span class="tag is-warning">Mejora</span> Mejorado el procesador de análisis nutricional CONUT en HULP/HCIS.</li>
+        </ul>
         <h2 class="is-size-4">Versión 1.6.4</h2>
         <ul style="margin-bottom: 2rem;">
             <li><span class="tag is-danger">Bug</span> Corregidos diversos errores que impedían el procesamiento de gasometrías venosas.</li>
@@ -202,7 +260,6 @@
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript">
         var _paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
